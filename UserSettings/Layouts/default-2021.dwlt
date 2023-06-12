@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1536
     height: 780.8
   m_ShowMode: 4
-  m_Title: Hierarchy
+  m_Title: Console
   m_RootView: {fileID: 3}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -43,8 +43,8 @@ MonoBehaviour:
     y: 0
     width: 323.19995
     height: 520.8
-  m_MinSize: {x: 202, y: 221}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
@@ -145,7 +145,7 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 200}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
-  controlID: 134
+  controlID: 112
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -170,7 +170,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 1
-  controlID: 135
+  controlID: 53
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -196,7 +196,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 8096}
   vertical: 0
-  controlID: 136
+  controlID: 54
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -216,8 +216,8 @@ MonoBehaviour:
     y: 0
     width: 213.6
     height: 520.8
-  m_MinSize: {x: 201, y: 221}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 17}
@@ -242,8 +242,8 @@ MonoBehaviour:
     y: 0
     width: 634.4
     height: 520.8
-  m_MinSize: {x: 202, y: 221}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 18}
   m_Panes:
   - {fileID: 18}
@@ -334,7 +334,7 @@ MonoBehaviour:
     m_LastAppliedPresetName: Default
     m_SaveData: []
   m_Spl:
-    ID: 144
+    ID: 140
     splitterInitialOffset: 0
     currentActiveSplitter: -1
     realSizes:
@@ -366,7 +366,7 @@ MonoBehaviour:
       name: TryGolograms
       fullName: TryGolograms
       resultStatus: 1
-      duration: 21.378279
+      duration: 1.3344367
       messages: 
       output: 
       stacktrace: 
@@ -382,7 +382,7 @@ MonoBehaviour:
       name: BallTests.dll
       fullName: C:/GitHubProjects/ProjectToCreate/Library/ScriptAssemblies/BallTests.dll
       resultStatus: 1
-      duration: 21.239777
+      duration: 1.1886024
       messages: 
       output: 
       stacktrace: 
@@ -398,7 +398,7 @@ MonoBehaviour:
       name: HeightTest
       fullName: HeightTest
       resultStatus: 1
-      duration: 1.1552937
+      duration: 1.1755891
       messages: 
       output: 
       stacktrace: 
@@ -431,7 +431,7 @@ MonoBehaviour:
       name: HeightTestWithEnumeratorPasses
       fullName: HeightTest.HeightTestWithEnumeratorPasses
       resultStatus: 1
-      duration: 1.1282632
+      duration: 1.1550331
       messages: 
       output: 'Test height: 1,775341, current 1,775341
 
@@ -521,12 +521,17 @@ MonoBehaviour:
       - Uncategorized
       parentId: 1004
       parentUniqueId: BallTests.dll/[BallTests][IntervalTest][suite]
-    m_ResultText: TryGolograms (21,378s)
+    m_ResultText: 'HeightTestWithEnumeratorPasses (1,155s)
+
+      ---
+
+      Test
+      height: 1,775341, current 1,775341'
     m_ResultStacktrace: 
     m_TestListState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 7e44a83c
-      m_LastClickedID: 1017660542
+      m_SelectedIDs: 9a91d473
+      m_LastClickedID: 1943310746
       m_ExpandedIDs: 554eb9baea7b7d0d7e44a83ce0d4046cffffff7f
       m_RenameOverlay:
         m_UserAcceptedRename: 0
@@ -798,7 +803,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 9861ffffe861ffffac63ffff2e65ffff7e65ffff1a67ffffb467ffff0468ffffbe69ffff106effff606efffffc6fffff5e73ffffae73ffff4a75ffffc879ffff187affffb47bffff9e7cffffee7cffff827effff0480ffff5480ffffe681ffff6082ffffb082ffff4c84ffff828cffffd28cffff668effffb88fffff0890ffff9c91ffff1e93ffff6e93ffff0295ffff8496ffffd496ffff6898ffff8a9affffda9affff6e9cffff84a2ffffd4a2ffff68a4ffffb2b1ffff02b2ffff96b3ffff50b4ffffa0b4ffff34b6fffff8b8ffff48b9ffffdabaffff5cbcffffacbcffff82beffffb8c2ffff08c3ffff9ac4ffff64c6ffffb4c6ffff48c8ffff22caffff78caffff8accffff48d0ffff98d0ffff24d2ffff48ecffff98ecffff2aeeffff18fbffff125e0000
+      m_ExpandedIDs: 14f6ffff64f6fffffef7ffff18fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1214,9 +1219,9 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 31}
-    m_SelectedIDs: da5c0000
-    m_LastClickedID: 23770
-    m_ExpandedIDs: 00000000b45c000000ca9a3b
+    m_SelectedIDs: e45c0000
+    m_LastClickedID: 23780
+    m_ExpandedIDs: 00000000ba5c000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1244,7 +1249,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000b45c0000
+    m_ExpandedIDs: 00000000ba5c0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 

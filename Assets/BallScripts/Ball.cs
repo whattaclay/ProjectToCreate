@@ -4,6 +4,7 @@ using System.Security.Cryptography.X509Certificates;
 using System.Threading;
 using System.Threading.Tasks;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 namespace BallScripts
 {
@@ -11,14 +12,14 @@ namespace BallScripts
     {
         [SerializeField] private Rigidbody _rigidbody;
         [SerializeField] private float jumpForce = 300f;
-        /*private float _maxHeight = -5;
-        private bool _calculated = false;*/
+        public float maxHeight = -5;
+        /*private bool _calculated = false;*/
         public float worldSpaceHeight;
         private void Update()
         {
             worldSpaceHeight = gameObject.transform.position.y;
             if (Input.GetKeyDown(KeyCode.Space))Jump();
-            /*MaxHeight();*/
+            MaxHeight();
         }
         public void Jump()
         {
@@ -28,18 +29,18 @@ namespace BallScripts
             _rigidbody.AddForce(0f,jumpForce,0f);
             /*_calculated = true;*/
         }
-        /*private void MaxHeight()
+        private void MaxHeight()
         {
-            if (gameObject.transform.position.y >= _maxHeight)
+            if (gameObject.transform.position.y >= maxHeight)
             {
-                _maxHeight = gameObject.transform.position.y;
+                maxHeight = gameObject.transform.position.y;
             }
+            /*
             if(_maxHeight > gameObject.transform.position.y && _calculated)
             {
-                /*print(_maxHeight);#1#
+                print(_maxHeight);
                 _calculated = false;
-            }
-            
-        }*/
+            }*/
+        }
     }
 }

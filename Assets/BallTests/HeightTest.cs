@@ -34,8 +34,8 @@ public class HeightTest
             height = ball.transform.position.y;
             yield return new WaitForFixedUpdate();
         }
-        Debug.Log($"Test height: {height}, current {ball.worldSpaceHeight}");
-        Assert.IsTrue(ball.worldSpaceHeight == height);
+        Debug.Log($"Test height: {height}, current {ball.maxHeight}");
+        Assert.IsTrue(ball.maxHeight == height);
     }
 
     private Ball Ball()
